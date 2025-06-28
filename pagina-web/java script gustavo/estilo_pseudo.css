@@ -1,0 +1,82 @@
+
+
+ 
+ a:link {
+      color: red;
+    }
+    a:visited {
+      color: green;
+    }
+    a:hover {
+      color: hotpink;
+    }
+    a:active {
+      color: blue;
+    }
+  
+  
+    a:link {
+      color: red;
+    }
+    a:visited {
+      color: green;
+    }
+    a:hover {
+      color: green;
+    }
+    a:active {
+      color: blue;
+    }
+  
+  
+  .aumenta:hover {
+  color: #ff0000;
+  font-size: 22px;
+  }
+  
+ .mostrar_frase {
+display: none;
+background-color:blue;
+padding: 20px;
+}
+
+div:hover p.mostrar_frase {
+display: block;
+}
+
+fieldset {
+margin: 20px;
+padding: 50px;
+}
+ 
+ 
+ .aumenta_letra:first-letter {
+	 color: #00ff00;
+	 font-size: 200%;
+ }
+   
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </head>

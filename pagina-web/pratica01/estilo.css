@@ -1,0 +1,31 @@
+
+li {
+width: 300px;
+display: inline-block;
+}
+
+nav, footer{
+   background-color: red;
+   text-align: center;
+  
+   }
+   
+   
+   
+   a, footer {
+	   color: darkblue;
+   }
+   
+   a{
+	  text-decoration: nome;
+	  text-transform: uppercase
+	  font-size: 36fpx;
+   }
+   
+   11:hover {
+	   background-color: white;
+   }
+   
+   a:hover {
+	   color:black;
+   }

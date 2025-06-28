@@ -1,0 +1,13 @@
+*{
+	font-family:'Inter', sans-serif;
+	color:#fff;
+	
+}
+body {
+	background-color: #b5c5ea;
+}
+div {
+	background-color: #2a427a;
+	width:400px;
+	height:400px;
+}

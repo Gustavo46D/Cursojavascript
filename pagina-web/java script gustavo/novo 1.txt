@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de IMC</title>
+    <script>
+        function calcularIMC() {
+            // Solicita o peso e altura ao usuário
+            let peso = parseFloat(prompt("Digite seu peso em kg:"));
+            let altura = parseFloat(prompt("Digite sua altura em metros:"));
+
+            // Verifica se os valores são válidos
+            if (isNaN(peso) || isNaN(altura) || altura <= 0) {
+                alert("Por favor, insira valores válidos.");
+                return;
+            }
+
+            // Calcula o IMC
+            let imc = peso / (altura * altura);
+
+            // Mostra o resultado
+            alert("Seu IMC é: " + imc.toFixed(2));
+        }
+    </script>
+</head>
+<body onload="calcularIMC()">
+</body>
+</html>
